@@ -1,0 +1,44 @@
+
+.detail-cell{
+    width:100%;
+    height:246px;
+	background:#fff;
+	margin-bottom:10px;
+}
+.tit{
+	width:96%;
+	margin-left:2%;
+	height:60px;
+	border-bottom:1px dotted #ccc;
+	display:flex;
+	justify-content:space-between;
+	line-height:60px;
+}
+.tit>span{
+    flex:1;
+	font-size:16px;
+	line-height:60px;
+	color:#6f6f6f;
+}
+.tit i{
+	color:#33916f;
+	margin-left:5px;
+}
+.tit>span:last-child{
+	text-align:right;
+}
+.dj{
+	width:96%;
+	margin-left:2%;
+	height:40px;
+}
+.dj span{
+	line-height:60px;
+	font-size:16px;
+}
+.dj span:first-child{
+	color:#c4c4c4;
+}
+.dj span:last-child{
+	color:#888888;
+}
